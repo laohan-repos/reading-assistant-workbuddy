@@ -20,6 +20,10 @@
 
 ## Git / 远端
 
-- **远端仓库**：`https://gitee.com/laohan_repos/reading-assistant-work-buddy.git`
-- **主分支**：`main`（已建立 upstream 跟踪）。
-- **git 身份**：程序员老韩 / hanruigang2@gmail.com（全局）。
+- **主分支**：`main`（本地 `git init -b main`）。
+- **git 身份**：程序员老韩 / hanruigang2@gmail.com（全局）；credential.helper = osxkeychain。
+- **远端（双仓库）**：
+  - `origin` → Gitee：`https://gitee.com/laohan_repos/reading-assistant-work-buddy.git`
+  - `github` → GitHub：`https://github.com/laohan-repos/reading-assistant-workbuddy.git`
+  - 两者均已建立 `main` 的 upstream 跟踪；`git push origin main` / `git push github main` 分别推送。
+- **注意**：两个仓库名略有差异——Gitee 为 `reading-assistant-work-buddy`（带连字符），GitHub 为 `reading-assistant-workbuddy`。
