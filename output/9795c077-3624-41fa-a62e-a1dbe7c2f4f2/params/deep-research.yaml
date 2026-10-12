@@ -1,0 +1,14 @@
+topic: "余华长篇小说《活着》——书籍基本信息、作者生平、创作背景、故事梗概、内容总结、章节分析与阅读思考"
+tools: ["web_search"]
+scope: "web"
+max_loops: 2
+min_facts_required: 5
+gap_check_strict: "relaxed"
+search_dimensions:
+  - "书籍出版信息与版本"
+  - "作者余华生平与文学道路"
+  - "创作背景与灵感来源"
+  - "主要人物与情节脉络"
+  - "主题思想与文学评价"
+tier_priority: []
+snapshot_path: "output/9795c077-3624-41fa-a62e-a1dbe7c2f4f2/research/活着_research.md"

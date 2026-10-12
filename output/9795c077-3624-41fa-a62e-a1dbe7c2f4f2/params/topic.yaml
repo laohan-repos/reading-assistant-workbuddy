@@ -1,0 +1,16 @@
+detected_doc_type: "读书总结报告（书籍导读 / 书评）"
+target_length: 4500
+target_tone: "第三人称叙述为主，正文正式度★★★☆☆，阅读思考部分可带上第一人称感悟"
+target_audience: "希望快速系统了解该书的普通读者、学生与读书会成员"
+core_sections:
+  - 书籍基本信息
+  - 作者介绍
+  - 创作背景
+  - 故事概括
+  - 内容总结
+  - 章节分析
+  - 阅读思考
+book:
+  title: "活着"
+  author: "余华"
+  genre: "长篇小说（中国当代文学）"
